@@ -56,7 +56,9 @@ a {
     align-items: center;
 }
 
-.logo:hover, .logo:active, .logo:focus {
+.logo:hover,
+.logo:active,
+.logo:focus {
     color: #c7b299;
     outline: none;
 }
@@ -65,7 +67,9 @@ a {
     fill: #fff;
 }
 
-.logo:hover .logo__img, .logo:active .logo__img, .logo:focus .logo__img {
+.logo:hover .logo__img,
+.logo:active .logo__img,
+.logo:focus .logo__img {
     fill: #c7b299;
 }
 
@@ -86,7 +90,9 @@ a {
     color: #fff;
 }
 
-.menu__link:hover, .menu__link:active, .menu__link:focus {
+.menu__link:hover,
+.menu__link:active,
+.menu__link:focus {
     color: #c7b299;
     outline: none;
 }
@@ -102,7 +108,9 @@ a {
     line-height: 0;
 }
 
-.navigation__icon-link:hover, .navigation__icon-link:active, .navigation__icon-link:focus {
+.navigation__icon-link:hover,
+.navigation__icon-link:active,
+.navigation__icon-link:focus {
     outline: none;
 }
 
@@ -110,7 +118,9 @@ a {
     fill: #fff;
 }
 
-.navigation__icon-link:hover .navigation__icon-img, .navigation__icon-link:active .navigation__icon-img, .navigation__icon-link:focus .navigation__icon-img {
+.navigation__icon-link:hover .navigation__icon-img,
+.navigation__icon-link:active .navigation__icon-img,
+.navigation__icon-link:focus .navigation__icon-img {
     fill: #c7b299;
 }
 
@@ -164,7 +174,9 @@ a {
     text-transform: uppercase;
 }
 
-.header__button:hover, .header__button:active, .header__button:focus {
+.header__button:hover,
+.header__button:active,
+.header__button:focus {
     outline: none;
     line-height: 55px;
     width: 172px;
@@ -391,7 +403,9 @@ a {
     text-transform: uppercase;
 }
 
-.advertisement__link:hover, .advertisement__link:active, .advertisement__link:focus {
+.advertisement__link:hover,
+.advertisement__link:active,
+.advertisement__link:focus {
     line-height: 52px;
     width: 172px;
     margin-right: -1px;
@@ -559,7 +573,9 @@ a {
     cursor: pointer;
 }
 
-.projects__button:hover, .projects__button:active, .projects__button:focus {
+.projects__button:hover,
+.projects__button:active,
+.projects__button:focus {
     line-height: 52px;
     width: 172px;
     margin-top: 9px;
@@ -610,7 +626,9 @@ a {
     border: none;
 }
 
-.presentation__play:hover, .presentation__play:active, .presentation__play:focus {
+.presentation__play:hover,
+.presentation__play:active,
+.presentation__play:focus {
     outline: none;
     transform: rotate(360deg);
     transition: transform 0.5s;
