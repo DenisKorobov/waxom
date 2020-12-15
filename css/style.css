@@ -1048,6 +1048,12 @@ a {
     padding-bottom: 0;
 }
 
+.footer__col-link:hover,
+.footer__col-link:active,
+.footer__col-link:focus {
+    outline: none;
+}
+
 .footer__col-pubdate {
     font-size: 12px;
     line-height: 15px;
@@ -1071,4 +1077,83 @@ a {
 .footer__col-link:active .footer__col-text,
 .footer__col-link:focus .footer__col-text {
     color: #C7B299;
+}
+
+.footer__col-twitter {
+    color: #757575;
+    line-height: 17px;
+}
+
+.footer__col-twitter:hover,
+.footer__col-twitter:active,
+.footer__col-twitter:focus {
+    color: #00BFF3;
+    outline: none;
+}
+
+.footer__col-time {
+    padding-top: 6px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #363636;
+}
+
+.footer__widget {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 268px;
+    margin-top: 11px;
+}
+
+.footer__widget-item {
+    line-height: 0;
+    margin-bottom: 8px;
+}
+
+.footer__widget-link:hover,
+.footer__widget-link:active,
+.footer__widget-link:focus {
+    outline: none;
+}
+
+.footer__bottom {
+    background: #101010;
+    padding-top: 58px;
+    padding-bottom: 41px;
+}
+
+.footer__bottom-list {
+    max-width: 1248px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.footer__bottom-item {
+    padding: 0 12px;
+    border-right: 1px solid #1A1A1A;
+    font-size: 13px;
+    line-height: 16px;
+    color: #555;
+}
+
+.footer__bottom-item:first-child {
+    padding-left: 0;
+}
+
+.footer__bottom-item:last-child {
+    border-right: none;
+}
+
+.footer__bottom-link {
+    font-size: 13px;
+    line-height: 16px;
+    color: #555;
+}
+
+.footer__bottom-link:hover,
+.footer__bottom-link:active,
+.footer__bottom-link:focus {
+    color: #BAA78F;
+    outline: none;
 }
