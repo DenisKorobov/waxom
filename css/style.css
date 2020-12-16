@@ -1157,3 +1157,75 @@ a {
     color: #BAA78F;
     outline: none;
 }
+
+@media (max-width: 1320px) {
+    .header__arrows {
+        padding: 0 50px;
+    }
+
+    .realization__bg {
+        width: 100%;
+    }
+
+    .advertisement__container {
+        max-width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    .projects__list {
+        justify-content: center;
+    }
+
+    .projects__item {
+        margin: 0 15px 30px;
+    }
+
+    .mobile-devices {
+        max-width: 100%;
+        padding-right: 15px;
+        background: url(../img/iphone.png) 100px bottom no-repeat;
+    }
+
+    .mobile-devices__text {
+        max-width: 675px;
+    }
+
+    .posts__list {
+        max-width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .posts__item {
+        margin: 0 15px 30px;
+    }
+
+    .posts__arrows {
+        margin-top: 24px;
+    }
+
+    .footer__top {
+        padding: 74px 0 98px;
+    }
+
+    .footer__container {
+        max-width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .footer__col {
+        margin: 0 15px 30px;
+    }
+
+    .footer__bottom-list {
+        max-width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+}
